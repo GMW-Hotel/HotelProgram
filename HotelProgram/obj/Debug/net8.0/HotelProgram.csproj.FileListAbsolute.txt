@@ -1,0 +1,14 @@
+C:\Users\HP VICTUS\Desktop\Ciências da computação\3° Período\Programação Orientada a Objetos\Trabalho\HotelProgram\bin\Debug\net8.0\HotelProgram.exe
+C:\Users\HP VICTUS\Desktop\Ciências da computação\3° Período\Programação Orientada a Objetos\Trabalho\HotelProgram\bin\Debug\net8.0\HotelProgram.deps.json
+C:\Users\HP VICTUS\Desktop\Ciências da computação\3° Período\Programação Orientada a Objetos\Trabalho\HotelProgram\bin\Debug\net8.0\HotelProgram.runtimeconfig.json
+C:\Users\HP VICTUS\Desktop\Ciências da computação\3° Período\Programação Orientada a Objetos\Trabalho\HotelProgram\bin\Debug\net8.0\HotelProgram.dll
+C:\Users\HP VICTUS\Desktop\Ciências da computação\3° Período\Programação Orientada a Objetos\Trabalho\HotelProgram\bin\Debug\net8.0\HotelProgram.pdb
+C:\Users\HP VICTUS\Desktop\Ciências da computação\3° Período\Programação Orientada a Objetos\Trabalho\HotelProgram\obj\Debug\net8.0\HotelProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP VICTUS\Desktop\Ciências da computação\3° Período\Programação Orientada a Objetos\Trabalho\HotelProgram\obj\Debug\net8.0\HotelProgram.AssemblyInfoInputs.cache
+C:\Users\HP VICTUS\Desktop\Ciências da computação\3° Período\Programação Orientada a Objetos\Trabalho\HotelProgram\obj\Debug\net8.0\HotelProgram.AssemblyInfo.cs
+C:\Users\HP VICTUS\Desktop\Ciências da computação\3° Período\Programação Orientada a Objetos\Trabalho\HotelProgram\obj\Debug\net8.0\HotelProgram.csproj.CoreCompileInputs.cache
+C:\Users\HP VICTUS\Desktop\Ciências da computação\3° Período\Programação Orientada a Objetos\Trabalho\HotelProgram\obj\Debug\net8.0\HotelProgram.dll
+C:\Users\HP VICTUS\Desktop\Ciências da computação\3° Período\Programação Orientada a Objetos\Trabalho\HotelProgram\obj\Debug\net8.0\refint\HotelProgram.dll
+C:\Users\HP VICTUS\Desktop\Ciências da computação\3° Período\Programação Orientada a Objetos\Trabalho\HotelProgram\obj\Debug\net8.0\HotelProgram.pdb
+C:\Users\HP VICTUS\Desktop\Ciências da computação\3° Período\Programação Orientada a Objetos\Trabalho\HotelProgram\obj\Debug\net8.0\HotelProgram.genruntimeconfig.cache
+C:\Users\HP VICTUS\Desktop\Ciências da computação\3° Período\Programação Orientada a Objetos\Trabalho\HotelProgram\obj\Debug\net8.0\ref\HotelProgram.dll
