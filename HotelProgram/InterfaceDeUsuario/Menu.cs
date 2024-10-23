@@ -23,7 +23,7 @@ public class Menu
         string resposta = System.Console.ReadLine();
         if (resposta == null || resposta == string.Empty)
         {
-            System.Console.WriteLine("Opcao nulla.");
+            System.Console.WriteLine("Opcao Invalida!.");
         }
         return resposta;
     }

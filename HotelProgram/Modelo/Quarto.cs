@@ -27,4 +27,10 @@ public class Quarto
         }
         return $"[Quarto numero: {Numero}, tipo: {Tipo}, valor: R${Valor}, ocupacao: {Ocupacao}]";
     }
+    public Quarto(int numero, string tipo, float valor, int status)
+    {
+        Numero = numero;
+        Valor = valor;
+        Status = status;
+    }
 }

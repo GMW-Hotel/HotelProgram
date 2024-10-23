@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 
 namespace HotelProgram.Modelo;
 
@@ -14,4 +15,16 @@ public class Hospede
     {
         return $"[Nome: {Nome}, CPF: {CPF}, Data de nascimento: {DataDeNascimento}, endereço de residencia: {Endereco}, numero do quarto hospedado: {NumeroDoQuarto}]";
     }
+
+
+
+    public Hospede(string nome,string cpf, string nascimento, string endereco, int numerodoquarto)
+    {
+        Nome = nome;
+        CPF = cpf;
+        DataDeNascimento = nascimento;
+        Endereco = endereco;
+        NumeroDoQuarto = numerodoquarto;
+    }
+
 }

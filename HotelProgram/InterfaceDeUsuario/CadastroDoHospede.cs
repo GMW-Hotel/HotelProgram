@@ -7,23 +7,22 @@ public class CadastroDoHospede
 {
     public Hospede CadastrarHospede()
     {
-        Hospede hospede = new();
-
-        System.Console.Write("Nome: ");
-        hospede.Nome = Console.ReadLine();
+        
+       System.Console.Write("Nome: ");
+       string nome = Console.ReadLine();
 
         System.Console.Write("CPF: ");
-        hospede.CPF = Console.ReadLine();
+        string cpf = Console.ReadLine();
 
         System.Console.Write("Data de nascimento: ");
-        hospede.DataDeNascimento = Console.ReadLine();
+        string nascimento = Console.ReadLine();
 
         System.Console.Write("Endereco de rezidencia: ");
-        hospede.Endereco = Console.ReadLine();
+        string endereco = Console.ReadLine();
         
         System.Console.Write("Numero do Quarto: ");
-        hospede.NumeroDoQuarto = int.Parse(Console.ReadLine());
+        string numerodoquarto = Console.ReadLine();
         
-        return hospede;
+        return new Hospede(nome,cpf,nascimento,endereco,int.Parse(numerodoquarto));
     }
 }
