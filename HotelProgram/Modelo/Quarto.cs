@@ -12,25 +12,36 @@ public class Quarto
     public int Numero { get; set; }
     public string Tipo { get; set; }
     public float Valor { get; set; }
-    public int Status { get; set; }
-    public string Ocupacao { get; set; }
+    public bool Ocupacao { get; set; }
 
     public override string ToString()
     {
-        if (Status == 2)
+        if(!Ocupacao)
         {
-            Ocupacao = "Livre";
+           return $"[Quarto numero: {Numero}, tipo: {Tipo}, valor: R${Valor}, ocupacao: Livre]"; 
         }
-        else if (Status == 1)
+        else
         {
-            Ocupacao = "Alugado";
+            return $"[Quarto numero: {Numero}, tipo: {Tipo}, valor: R${Valor}, ocupacao: Ocupado]";
         }
-        return $"[Quarto numero: {Numero}, tipo: {Tipo}, valor: R${Valor}, ocupacao: {Ocupacao}]";
     }
-    public Quarto(int numero, string tipo, float valor, int status)
+    public Quarto(int numero, string tipo, float valor)
     {
         Numero = numero;
         Valor = valor;
-        Status = status;
+       Ocupacao = false;
+    }
+    public void ExibeQuarto()
+    {
+         if(!Ocupacao)
+        {   
+            Console.Write("");
+            Console.WriteLine($"Quarto numero: {Numero}, tipo: {Tipo}, valor: R${Valor}, ocupacao: Livre"); 
+        }
+        else
+        {
+             Console.Write("");
+             Console.WriteLine($"Quarto numero: {Numero}, tipo: {Tipo}, valor: R${Valor}, ocupacao: Ocupado");
+        }
     }
 }
