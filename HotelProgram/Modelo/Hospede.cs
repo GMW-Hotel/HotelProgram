@@ -26,5 +26,10 @@ public class Hospede
         Endereco = endereco;
         NumeroDoQuarto = numerodoquarto;
     }
+    public  void ExibeHospede()
+    {
+         Console.Write("");
+        Console.WriteLine($"Nome: {Nome}, CPF: {CPF}, Data de nascimento: {DataDeNascimento}, endereço de residencia: {Endereco}, numero do quarto hospedado: {NumeroDoQuarto}");
+    }
 
 }

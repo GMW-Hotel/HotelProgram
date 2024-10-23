@@ -17,12 +17,6 @@ public class CadastroDoQuarto
         System.Console.Write("Valor: ");
         string Valor =Console.ReadLine();
 
-        System.Console.WriteLine("Ocupação do quarto:");
-        System.Console.WriteLine("-------------------");
-        System.Console.WriteLine("1. Quarto alugado.");
-        System.Console.WriteLine("2. Quarto Livre. ");
-         string Status = Console.ReadLine();
-
-        return new Quarto(int.Parse(Numero),Tipo,float.Parse(Valor),int.Parse(Status));
+        return new Quarto(int.Parse(Numero),Tipo,float.Parse(Valor));
     }
 }
