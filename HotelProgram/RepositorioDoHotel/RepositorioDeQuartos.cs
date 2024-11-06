@@ -7,7 +7,7 @@ public class RepositorioDeQuartos
 {
     private List<Quarto> cadastroDeQuarto = [];
 
-    public void hospedar(Quarto cadastrarQuarto)
+    public void Cadastrar(Quarto cadastrarQuarto)
     {
         cadastroDeQuarto.Add(cadastrarQuarto);
     }

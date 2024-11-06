@@ -15,8 +15,8 @@ public class CadastroDoQuarto
         string Tipo = Console.ReadLine();
 
         System.Console.Write("Valor: ");
-        string Valor =Console.ReadLine();
+        string Valor = Console.ReadLine();
 
-        return new Quarto(int.Parse(Numero),Tipo,float.Parse(Valor));
+        return new Quarto(int.Parse(Numero), Tipo, float.Parse(Valor));
     }
 }

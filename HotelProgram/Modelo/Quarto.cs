@@ -16,32 +16,24 @@ public class Quarto
 
     public override string ToString()
     {
-        if(!Ocupacao)
+        if (!Ocupacao)
         {
-           return $"[Quarto numero: {Numero}, tipo: {Tipo}, valor: R${Valor}, ocupacao: Livre]"; 
+            return $"[Quarto numero: {Numero}, tipo: {Tipo}, valor: R${Valor}, status: Livre]";
         }
         else
         {
-            return $"[Quarto numero: {Numero}, tipo: {Tipo}, valor: R${Valor}, ocupacao: Ocupado]";
+            return $"[Quarto numero: {Numero}, tipo: {Tipo}, valor: R${Valor}, status: ocupado]";
         }
     }
     public Quarto(int numero, string tipo, float valor)
     {
         Numero = numero;
+        Tipo = tipo;
         Valor = valor;
-       Ocupacao = false;
+        Ocupacao = false;
     }
     public void ExibeQuarto()
     {
-         if(!Ocupacao)
-        {   
-            Console.Write("");
-            Console.WriteLine($"Quarto numero: {Numero}, tipo: {Tipo}, valor: R${Valor}, ocupacao: Livre"); 
-        }
-        else
-        {
-             Console.Write("");
-             Console.WriteLine($"Quarto numero: {Numero}, tipo: {Tipo}, valor: R${Valor}, ocupacao: Ocupado");
-        }
+        Console.WriteLine($"Quarto numero: {Numero}, tipo: {Tipo}, valor: R${Valor}");
     }
 }

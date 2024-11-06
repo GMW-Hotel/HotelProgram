@@ -1,32 +1,35 @@
-using HotelProgram.Modelo;
+using System;
+using Microsoft.VisualBasic;
+
+namespace HotelProgram.Modelo;
 
 public class Reserva()
 {
-    Hospede NomeReserva {get;set;}
-    Quarto QuartoReserva {get;set;}
-    DateTime DataReserva {get;set;}
-
-                                                        // O this aqui apararentemente chama o construtor
-                                                        // que nao tem parametro?
-                                                        // ou seja a liçao de hoje é se voce criou um construtor
-                                                        // que tem uma variavel que nao tem parametro se for relacionar
-                                                        // com outra classe precisa fazer desse jeito por que sim
- public Reserva(Hospede nome, Quarto quarto, DateTime data) : this()
+    public Hospede ReservaHospede { get; set; }
+    public Quarto ReservaQuarto { get; set; }
+    public DateTime DataEntrada { get; set; }
+    public DateTime DataSaida { get; set; }
+    public override string ToString()
     {
-        NomeReserva = nome;
-        QuartoReserva = quarto;
-        DataReserva = data;
+        return $"Informações do hospede:{ReservaHospede}\n" +
+                $"Informações do quarto: {ReservaQuarto}\n" +
+                $"Data de entrada: {DataEntrada}\n" +
+                $"Data de saída: {DataSaida}\n";
     }
-    public  void ExibeReserva()
+    public Reserva(Hospede hospede, Quarto quarto, DateTime dateE, DateTime dateS) : this()
     {
-        Console.WriteLine("Informacoes do hospede:");
-        Console.Write("");
-        NomeReserva.ExibeHospede();
-        Console.WriteLine("Informaçoes do quarto:");
-        Console.Write("");
-        QuartoReserva.ExibeQuarto();
-        Console.Write("");
-        Console.WriteLine($"Data da reserva: {DataReserva}");
+        ReservaHospede = hospede;
+        ReservaQuarto = quarto;
+        DataEntrada = dateE;
+        DataSaida = dateS;
     }
-
+    public void ExibeReserva()
+    {
+        Console.WriteLine("Informações do hóspede: ");
+        ReservaHospede.ExibeHospede();
+        Console.WriteLine("Informações do quarto: ");
+        ReservaQuarto.ExibeQuarto();
+        Console.WriteLine($"Data de entrada: {DataEntrada:dd/MM/yyyy} ");
+        Console.WriteLine($"Data de saída: {DataSaida:dd/MM/yyyy}");
+    }
 }

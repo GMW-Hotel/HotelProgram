@@ -7,7 +7,7 @@ public class RepositorioDeHospedes
 {
     private List<Hospede> cadastroDeHospede = [];
 
-    public void Cadastrar(Hospede cadastroDeHospedes)
+    public void Hospedar(Hospede cadastroDeHospedes)
     {
         cadastroDeHospede.Add(cadastroDeHospedes);
     }

@@ -7,29 +7,24 @@ public class Hospede
 {
     public string Nome { get; set; }
     public string CPF { get; set; }
-    public string DataDeNascimento { get; set; }
+    public DateTime DataDeNascimento { get; set; }
     public string Endereco { get; set; }
-    public int NumeroDoQuarto { get; set; }
 
     public override string ToString()
     {
-        return $"[Nome: {Nome}, CPF: {CPF}, Data de nascimento: {DataDeNascimento}, endereço de residencia: {Endereco}, numero do quarto hospedado: {NumeroDoQuarto}]";
+        return $"[Nome: {Nome}, CPF: {CPF}, Data de nascimento: {DataDeNascimento}, endereço de residencia: {Endereco}]";
     }
 
-
-
-    public Hospede(string nome,string cpf, string nascimento, string endereco, int numerodoquarto)
+    public Hospede(string nome, string cpf, DateTime nascimento, string endereco)
     {
         Nome = nome;
         CPF = cpf;
         DataDeNascimento = nascimento;
         Endereco = endereco;
-        NumeroDoQuarto = numerodoquarto;
     }
-    public  void ExibeHospede()
+    public void ExibeHospede()
     {
-         Console.Write("");
-        Console.WriteLine($"Nome: {Nome}, CPF: {CPF}, Data de nascimento: {DataDeNascimento}, endereço de residencia: {Endereco}, numero do quarto hospedado: {NumeroDoQuarto}");
+        Console.Write("");
+        Console.WriteLine($"Nome: {Nome}, CPF: {CPF}, Data de nascimento: {DataDeNascimento}, endereço de residencia: {Endereco}");
     }
-
 }

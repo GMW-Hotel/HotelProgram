@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\pato_\\.nuget\\packages\\": {},
+    "C:\\Users\\HP VICTUS\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pato_\\Downloads\\Materias\\orientaçao a objetos\\Projetos c#\\HotelProgram\\HotelProgram.csproj",
+      "projectUniqueName": "C:\\Users\\HP VICTUS\\Desktop\\HotelProgram\\HotelProgram.csproj",
       "projectName": "HotelProgram",
-      "projectPath": "C:\\Users\\pato_\\Downloads\\Materias\\orientaçao a objetos\\Projetos c#\\HotelProgram\\HotelProgram.csproj",
-      "packagesPath": "C:\\Users\\pato_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pato_\\Downloads\\Materias\\orientaçao a objetos\\Projetos c#\\HotelProgram\\obj\\",
+      "projectPath": "C:\\Users\\HP VICTUS\\Desktop\\HotelProgram\\HotelProgram.csproj",
+      "packagesPath": "C:\\Users\\HP VICTUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP VICTUS\\Desktop\\HotelProgram\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pato_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP VICTUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
