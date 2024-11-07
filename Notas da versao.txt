@@ -1,0 +1,12 @@
+IMPORTANTE!!!!!!!!!!!!!
+De agora em diante quando for atualizar o código atualizar versão também!
+Mudanças feitas nessa versão:
+2 Classes novas checkin, e checkout.
+O cadastro delas está quase completo, so falta fazer o status do quarto ficar
+ocupado quando fizer o checkin e o contrario para o checkout.
+criei duas funções no repositório quarto, (ocupaquarto e liberaquarto), mais sem sucesso... o status não mudou com essas funçoes mais esta quase la.
+
+A data do check in é a hora exata que o cadastro do checkin é feito
+e a data do check out tambem.
+resumindo, falta complementar os cadastros para ocupaçao de quarto
+dai manda bala.
